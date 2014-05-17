@@ -68,11 +68,14 @@ Valid Values: standard, verbose, visual-expanded"
   "Powerline face for evil EMACS state."
   :group 'powerline)
 
+
+;;;###autoload
 (defun powerline-evil-face ()
   "Function to select appropriate face based on `evil-state'."
   (let* ((face (intern (concat "powerline-evil-" (symbol-name evil-state) "-face"))))
     (if (facep face) face nil)))
 
+;;;###autoload
 (defun powerline-evil-tag ()
   "Get customized tag value for current evil state."
   (let* ((visual-block (and (evil-visual-state-p)
