@@ -3,7 +3,7 @@
 ;; Copyright (C) 2014 Chris Johnson
 
 ;; Author: Chris Johnson <raugturi@gmail.com>
-;; Version: 0.1
+;; Version: 1.0
 ;; Package-Requires: ((evil "1.0.8") (powerline "2.3"))
 ;; Keywords: evil, mode-line, powerline
 ;; URL: http://github.com/raugturi/powerline-evil/
@@ -76,9 +76,9 @@ Valid Values: standard, verbose, visual-expanded"
 (defun powerline-evil-tag ()
   "Get customized tag value for current evil state."
   (let* ((visual-block (and (evil-visual-state-p)
-                              (eq evil-visual-selection 'block)))
+                            (eq evil-visual-selection 'block)))
          (visual-line (and (evil-visual-state-p)
-                             (eq evil-visual-selection 'line))))
+                           (eq evil-visual-selection 'line))))
     (cond ((eq powerline-evil-tag-style 'visual-expanded)
            (cond (visual-block " +V+ ")
                  (visual-line " -V- ")
