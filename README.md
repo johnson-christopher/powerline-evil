@@ -15,8 +15,8 @@ There are custom faces for each evil mode in the format `powerline-evil-<state>-
 ## Functions
 
 The following helper functions for building powerline themes are provided by this package:
-* `powerline-evil-face`: Returns the appropriate face for the current evil state as described in the [Faces](#Faces) section.
-* `powerline-evil-tag`: Returns the tag for the current evil state. See [Options](#Options) for details about configuring the tag style.
+* `powerline-evil-face`: Returns the appropriate face for the current evil state as described in the [Faces](#faces) section.
+* `powerline-evil-tag`: Returns the tag for the current evil state. See [Options](#options) for details about configuring the tag style.
 
 ## Themes
 
