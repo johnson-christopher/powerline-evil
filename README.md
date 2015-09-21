@@ -1,6 +1,9 @@
 powerline-evil
 ==============
 
+[![GPL](http://img.shields.io/badge/license-GNU%20GPLv3-blue.svg)](https://github.com/raugturi/powerline-evil/blob/master/LICENSE)
+[![MELPA](https://melpa.org/packages/powerline-evil-badge.svg)](https://melpa.org/#/powerline-evil)
+
 Utilities for better Evil support for [Powerline](https://github.com/milkypostman/powerline).
 
 ## Installation
