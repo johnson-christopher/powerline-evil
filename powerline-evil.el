@@ -2,11 +2,11 @@
 
 ;; Copyright (C) 2014 Chris Johnson
 
-;; Author: Chris Johnson <raugturi@gmail.com>
+;; Author: Chris Johnson <chris@christophermjohnson.net>
 ;; Version: 1.0
 ;; Package-Requires: ((evil "1.0.8") (powerline "2.3"))
 ;; Keywords: evil, mode-line, powerline
-;; URL: http://github.com/raugturi/powerline-evil/
+;; URL: http://github.com/johnson-christopher/powerline-evil/
 
 ;;; Commentary:
 ;;
